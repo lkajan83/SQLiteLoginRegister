@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:background="@drawable/KajanTL"
+    android:background="@drawable/kajantl"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txtusername"
+        android:id="@+id/txt_reg_username"
         android:hint="USER NAME"
         android:gravity="center"
         android:layout_marginTop="100dip" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txtpwd"
+        android:id="@+id/txt_reg_password"
         android:hint="PASSWORD"
         android:password="true"
         android:gravity="center" />
     <Button
-        android:text="LOGIN"
+        android:text="CREATE"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnlogin" />
-  
-  <!--  ONE YOU REGISTER THE CODE PLEASE COPY AND PASTE REGISTER BUTTON THEN BUTTON WILL BE INVISIBLED-->
-
-  <!--      android:visibility="invisible"-->      
+        android:id="@+id/btn_reg_create"
+        android:textSize="20dip"
+        android:height="60dip" />
     <Button
-        android:text="REGISTER"
+        android:text="BACK"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnregister" />
+        android:id="@+id/btn_reg_back"
+        android:height="60dip"
+        android:textSize="20dip" />
 </LinearLayout>
