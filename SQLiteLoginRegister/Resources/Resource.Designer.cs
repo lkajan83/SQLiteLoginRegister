@@ -50,6 +50,9 @@ namespace SQLiteLoginRegister
 			// aapt resource value: 0x7f020001
 			public const int KajanTL = 2130837505;
 			
+			// aapt resource value: 0x7f020002
+			public const int SampleIcon = 2130837506;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -62,9 +65,6 @@ namespace SQLiteLoginRegister
 		
 		public partial class Id
 		{
-			
-			// aapt resource value: 0x7f050009
-			public const int LoginLinLayer = 2131034121;
 			
 			// aapt resource value: 0x7f050007
 			public const int btn_reg_back = 2131034119;
@@ -81,8 +81,11 @@ namespace SQLiteLoginRegister
 			// aapt resource value: 0x7f050003
 			public const int btnregister = 2131034115;
 			
+			// aapt resource value: 0x7f050009
+			public const int lblDashboard = 2131034121;
+			
 			// aapt resource value: 0x7f050008
-			public const int lblDashboard = 2131034120;
+			public const int mLlayoutBottomButtons = 2131034120;
 			
 			// aapt resource value: 0x7f050005
 			public const int txt_reg_password = 2131034117;
