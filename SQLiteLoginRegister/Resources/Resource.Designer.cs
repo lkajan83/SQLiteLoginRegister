@@ -63,14 +63,17 @@ namespace SQLiteLoginRegister
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050009
+			public const int LoginLinLayer = 2131034121;
+			
 			// aapt resource value: 0x7f050007
 			public const int btn_reg_back = 2131034119;
 			
 			// aapt resource value: 0x7f050006
 			public const int btn_reg_create = 2131034118;
 			
-			// aapt resource value: 0x7f050009
-			public const int btn_reg_logout = 2131034121;
+			// aapt resource value: 0x7f05000a
+			public const int btn_reg_logout = 2131034122;
 			
 			// aapt resource value: 0x7f050002
 			public const int btnlogin = 2131034114;
